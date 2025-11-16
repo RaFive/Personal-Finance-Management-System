@@ -1,6 +1,6 @@
-# Personal Finance Management System (Sistem Manajemen Keuangan Pribadi)
+# Personal Finance Management System
 
-The **Personal Finance Management System** is a desktop application designed to help users efficiently manage their personal finances. This project was created as a college assignment, showcasing a practical implementation of Java Swing with SQLite database integration.  
+The **Personal Finance Management System** is a desktop application designed to help users efficiently manage their personal finances. This project was created as a college assignment, showcasing a practical implementation of **Java Swing** with **SQLite database** integration.  
 
 ---
 
@@ -26,22 +26,46 @@ The **Personal Finance Management System** is a desktop application designed to 
 
 <div align="center">
 
-### <b>LOGIN</b>
-<img width="798" height="598" src="https://github.com/user-attachments/assets/a28e6dea-c5ee-4a02-b9f1-b94dd6579dee" alt="Login Preview" />  
+### **LOGIN**
+![Login Preview](https://github.com/user-attachments/assets/a28e6dea-c5ee-4a02-b9f1-b94dd6579dee)
 
-### <b>SIGN UP</b> 
-<img width="798" height="594" src="https://github.com/user-attachments/assets/7c432c34-0d35-4349-9145-d1bcd14151a1" alt="Sign Up Preview" />  
+### **SIGN UP**
+![Sign Up Preview](https://github.com/user-attachments/assets/7c432c34-0d35-4349-9145-d1bcd14151a1)
 
-
-### <b>HOME DASHBOARD</b>
-<img width="1082" height="722" src="https://github.com/user-attachments/assets/f0cf7757-8620-4538-9241-06605fc21290" alt="Home Preview" />  
-
+### **HOME DASHBOARD**
+![Home Preview](https://github.com/user-attachments/assets/f0cf7757-8620-4538-9241-06605fc21290)
 
 </div>
 
 ---
 
-## 🛠 Tools & Technologies
-- **Programming Language:** Java (Java Swing for GUI) – **JDK 1.8**  
-- **Database:** SQLite (lightweight, file-based) – **sqlite-jdbc-3.51.0.0**  
-- **Charts & Visualization:** XChart (Chart) – **xchart-3.8.8**
+## How to Use
+
+1. **Clone or Download the Project**  
+   Make sure you have Java and NetBeans IDE installed. Open the project in NetBeans.  
+
+2. **Configure the Database Directory**  
+   By default, the application stores SQLite databases in:  
+   C:\Users\YourUsername\Documents\NetBeansProjects\PersonalFinanceManagementSystem\DataBase\
+   To change the directory:  
+- Open `UserManager.java` (or `DBK.java` in some versions).  
+- Update the `DB_FOLDER` path to your preferred location:
+  ```java
+  private static final String DB_FOLDER = "D:\\MyFinanceApp\\Database\\";
+  ```
+
+3. **Run the Application**  
+- Start the project in NetBeans.  
+- Use the **Sign Up** screen to create a new account.  
+- Login using your credentials to access the **Home Dashboard**.  
+
+4. **Using the Features**  
+- Add, edit, or delete financial transactions.  
+- View detailed transaction history.  
+- Check your income, expenses, and balance in the dashboard charts.  
+
+---
+
+## Dependencies
+- **SQLite JDBC 3.51.0.0** – For local database management.  
+- **XChart 3.8.8** – For displaying charts in the dashboard.
