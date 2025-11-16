@@ -24,26 +24,25 @@ The **Personal Finance Management System** is a desktop application designed to 
 
 ## Preview
 
+<div align="center">
+
 **Login Screen**  
-![Login Preview](https://github.com/user-attachments/assets/a28e6dea-c5ee-4a02-b9f1-b94dd6579dee)
+<img width="798" height="598" src="https://github.com/user-attachments/assets/a28e6dea-c5ee-4a02-b9f1-b94dd6579dee" alt="Login Preview" />  
+### <b>LOGIN</b>
 
 **Sign Up Screen**  
-![Sign Up Preview](https://github.com/user-attachments/assets/7c432c34-0d35-4349-9145-d1bcd14151a1)
+<img width="798" height="594" src="https://github.com/user-attachments/assets/7c432c34-0d35-4349-9145-d1bcd14151a1" alt="Sign Up Preview" />  
+### <b>SIGN UP</b>
 
 **Home Dashboard**  
-![Home Preview](https://github.com/user-attachments/assets/f0cf7757-8620-4538-9241-06605fc21290)
+<img width="1082" height="722" src="https://github.com/user-attachments/assets/f0cf7757-8620-4538-9241-06605fc21290" alt="Home Preview" />  
+### <b>HOME DASHBOARD</b>
+
+</div>
 
 ---
 
 ## 🛠 Tools & Technologies
 - **Programming Language:** Java (Java Swing for GUI) – **JDK 1.8**  
 - **Database:** SQLite (lightweight, file-based) – **sqlite-jdbc-3.51.0.0**  
-- **Charts & Visualization:** XChart (Donut Chart for financial data) – **xchart-3.8.8**  
-
----
-
-## 🚀 How to Run
-1. Make sure **Java JDK 1.8** is installed on your computer.  
-2. Clone this repository:  
-   ```bash
-   git clone https://github.com/username/Personal-Finance-Management-System.git
+- **Charts & Visualization:** XChart (Donut Chart for financial data) – **xchart-3.8.8**
