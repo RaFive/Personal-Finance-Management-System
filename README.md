@@ -35,7 +35,15 @@ The **Personal Finance Management System** is a desktop application designed to 
 
 ---
 
-## This Project Use
-- **Programming Language:** Java (Java Swing for GUI) (JDK 1.8)
-- **Database:** SQLite (can you change)
-- **Charts & Visualization:** XChart (Chart)
+## 🛠 Tools & Technologies
+- **Programming Language:** Java (Java Swing for GUI) – **JDK 1.8**  
+- **Database:** SQLite (lightweight, file-based database)  
+- **Charts & Visualization:** XChart (Donut Chart for financial data)  
+
+---
+
+## 🚀 How to Run
+1. Make sure **Java JDK 1.8** is installed on your computer.  
+2. Clone this repository:  
+   ```bash
+   git clone https://github.com/username/Personal-Finance-Management-System.git
