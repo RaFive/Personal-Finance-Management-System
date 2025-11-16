@@ -44,4 +44,4 @@ The **Personal Finance Management System** is a desktop application designed to 
 ## 🛠 Tools & Technologies
 - **Programming Language:** Java (Java Swing for GUI) – **JDK 1.8**  
 - **Database:** SQLite (lightweight, file-based) – **sqlite-jdbc-3.51.0.0**  
-- **Charts & Visualization:** XChart (Donut Chart for financial data) – **xchart-3.8.8**
+- **Charts & Visualization:** XChart (Chart) – **xchart-3.8.8**
