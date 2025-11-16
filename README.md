@@ -1,96 +1,104 @@
-# Personal Finance Management System
+# Personal Finance Management System (Sistem Manajemen Keuangan Pribadi)
 
-A **desktop application** designed to help users efficiently manage their personal finances. This project demonstrates practical implementation using **Java Swing**, **SQLite**, and **XChart** for data visualization.
-
----
+The **Personal Finance Management System** is a desktop application designed to help users efficiently manage their personal finances. This project was created as a college assignment, showcasing a practical implementation of Java Swing with SQLite database integration.
 
 ## Features
 
-- User **Sign Up** and **Login**
-- Dashboard showing **financial summary**
-- Record **Income** and **Expenses**
-- View **Monthly Summary** in a **Donut Chart**
-- Database persistence using **SQLite**
-- Simple and intuitive GUI
+- **Login Screen**  
+  A secure login interface that authenticates users before accessing the application. Provides a simple and clean UI for user authentication.
+
+- **Sign Up Screen**  
+  Easy registration for new users with validation to ensure account security. Users can quickly create an account and start managing their finances.
+
+- **Home Dashboard**  
+  The main interface showing an overview of your finances, including income, expenses, and current balance. Includes visual **Donut Charts** for quick insights.
+
+- **Transaction Management**  
+  Add, edit, or delete transactions seamlessly. Keep track of your financial activities in one place.
+
+- **Transaction History**  
+  View a detailed history of all past transactions for better financial planning and tracking.
+
+# Preview
+
+<div align="center">
+
+### <b>LOGIN</b>
+<img width="798" height="598" src="https://github.com/user-attachments/assets/a28e6dea-c5ee-4a02-b9f1-b94dd6579dee" alt="Login Preview" />
+
+### <b>SIGN UP</b>
+<img width="798" height="594" src="https://github.com/user-attachments/assets/7c432c34-0d35-4349-9145-d1bcd14151a1" alt="Sign Up Preview" />
+
+### <b>HOME DASHBOARD</b>
+<img width="1082" height="722" src="https://github.com/user-attachments/assets/f0cf7757-8620-4538-9241-06605fc21290" alt="Home Preview" />
+
+</div>
 
 ---
 
-## Installation
+## How to Use
 
-1. **Clone the repository**
-   ```bash
-   git clone <repository_url>
-Open the project in NetBeans
+### 1. Clone or Download the Project
 
-Add required libraries (JARs) to your project:
+Clone the repository or download the ZIP file & open the project in **NetBeans IDE** (or your preferred Java IDE).
 
-sqlite-jdbc-3.51.0.0.jar
+### 2. Update Database Path
 
-xchart-3.8.8.jar
+The application uses SQLite databases for storing user accounts and personal finance data. By default, the paths in the Java files point to:
 
-Build and run the project
+C:\Users\RaFiveSRD\Documents\NetBeansProjects\PersonalFinanceManagementSystem\DataBase\
 
-How to Use
-1. Launch Application
-Open NetBeans → Run Project → Login.java
+You need to update this path to match your own project folder. 
 
-2. Sign Up for a New User
-Click Sign Up if you don’t have an account
+**Files to update:**
 
-Fill in your details
+**Login.java**
 
-Database file will be created automatically
+```java
+String userDbPath = "C:\\Users\\YourUsername\\Path\\To\\PersonalFinanceManagementSystem\\DataBase\\Finance_"
+                    + username + ".db";
+DBK.createNewUserDatabase(userDbPath);
+```
 
-3. Login
-Enter your credentials to access the dashboard
+**SignUp.java**
 
-4. Dashboard Overview
-View current Income, Expenses, and Balance
+```java
+String userDbPath = "C:\\Users\\YourUsername\\Path\\To\\PersonalFinanceManagementSystem\\DataBase\\" + username + ".db";
+DBK.createNewUserDatabase(userDbPath);
+```
 
-Add transactions via Income or Expense buttons
+UserManager.java (previously DBA.java)
 
-View monthly breakdown with a Donut Chart
+```java
+private static final String DB_FOLDER = "C:\\Users\\YourUsername\\Path\\To\\PersonalFinanceManagementSystem\\DataBase\\";
+```
+Replace C:\\Users\\YourUsername\\Path\\To\\PersonalFinanceManagementSystem\\DataBase\\ with the folder where you will store your databases.
 
-5. Change Database Directory (Optional)
-The default database location is:
+### 3. Run the Application
 
-makefile
-Copy code
-C:\Users\<Username>\Documents\NetBeansProjects\PersonalFinanceManagementSystem\DataBase\
-To change:
+Open **NetBeans IDE** and ensure all `.java` files are in the correct packages:
 
-Open DBK.java (or UserManager.java)
+**Packages and Files:**
 
-Locate the folder variable:
+- `LoginSignup` → `Login.java`, `SignUp.java`  
+- `personalfinancemanagementsystem` → `UserManager.java` (or `DBA.java`), `DBK.java`  
+- `Page` → `Home.java`  
 
-java
-Copy code
-private static final String DB_FOLDER = "C:\\Users\\<Username>\\Documents\\NetBeansProjects\\PersonalFinanceManagementSystem\\DataBase\\";
-Update it to your preferred folder, e.g.:
+**Clean and Build the Project**  
+   - Right-click the project in the Projects panel.  
+   - Select **Clean and Build** to compile all files.
 
-java
-Copy code
-private static final String DB_FOLDER = "D:\\MyFinanceDB\\";
-Make sure the folder exists, save changes, and rebuild the project
+**Run the Application**  
+   - Right-click `Login.java` in the `LoginSignup` package.  
+   - Select **Run File** to start the application.
 
-6. Backup Database
-Regularly copy the database folder for backup
 
-Dependencies
-Java 8+
+## 🛠 Tools & Technologies
 
-NetBeans IDE (or any Java IDE)
+- **Programming Language:** Java (Java Swing for GUI) – **JDK 1.8**  
+- **Database:** SQLite (lightweight, file-based) – **sqlite-jdbc-3.51.0.0**  
+- **Charts & Visualization:** XChart (Chart) – **xchart-3.8.8**
 
-Libraries:
+## License
 
-SQLite JDBC 3.51.0.0
-
-XChart 3.8.8
-
-Preview
-Login & Sign Up Screen
-
-Dashboard with Donut Chart
-
-License
-This project is for educational purposes. Feel free to modify and improve.
+This project is for educational purposes. You are free to use, modify, and improve it. However, it is not intended for commercial use. 
