@@ -52,7 +52,7 @@ You need to update this path to match your own project folder.
 
 **Files to update:**
 
-**Login.java**
+`Login.java`
 
 ```java
 String userDbPath = "C:\\Users\\YourUsername\\Path\\To\\PersonalFinanceManagementSystem\\DataBase\\Finance_"
@@ -60,14 +60,14 @@ String userDbPath = "C:\\Users\\YourUsername\\Path\\To\\PersonalFinanceManagemen
 DBK.createNewUserDatabase(userDbPath);
 ```
 
-**SignUp.java**
+`SignUp.java`
 
 ```java
 String userDbPath = "C:\\Users\\YourUsername\\Path\\To\\PersonalFinanceManagementSystem\\DataBase\\" + username + ".db";
 DBK.createNewUserDatabase(userDbPath);
 ```
 
-UserManager.java (previously DBA.java)
+`UserManager.java` (previously `DBA.java`)
 
 ```java
 private static final String DB_FOLDER = "C:\\Users\\YourUsername\\Path\\To\\PersonalFinanceManagementSystem\\DataBase\\";
