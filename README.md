@@ -26,17 +26,16 @@ The **Personal Finance Management System** is a desktop application designed to 
 
 <div align="center">
 
-**Login Screen**  
-<img width="798" height="598" src="https://github.com/user-attachments/assets/a28e6dea-c5ee-4a02-b9f1-b94dd6579dee" alt="Login Preview" />  
 ### <b>LOGIN</b>
+<img width="798" height="598" src="https://github.com/user-attachments/assets/a28e6dea-c5ee-4a02-b9f1-b94dd6579dee" alt="Login Preview" />  
 
-**Sign Up Screen**  
+### <b>SIGN UP</b> 
 <img width="798" height="594" src="https://github.com/user-attachments/assets/7c432c34-0d35-4349-9145-d1bcd14151a1" alt="Sign Up Preview" />  
-### <b>SIGN UP</b>
 
-**Home Dashboard**  
-<img width="1082" height="722" src="https://github.com/user-attachments/assets/f0cf7757-8620-4538-9241-06605fc21290" alt="Home Preview" />  
+
 ### <b>HOME DASHBOARD</b>
+<img width="1082" height="722" src="https://github.com/user-attachments/assets/f0cf7757-8620-4538-9241-06605fc21290" alt="Home Preview" />  
+
 
 </div>
 
