@@ -5,20 +5,20 @@ The **Personal Finance Management System** is a desktop application designed to 
 ---
 
 ## Features
-- **Login & Sign Up**  
-  Securely manage user accounts with a simple authentication system.  
+- **Login Screen**  
+  A secure login interface that authenticates users before accessing the application. Provides a simple and clean UI for user authentication.  
 
-- **Finance Dashboard**  
-  View a summary of your finances, including income, expenses, and current balance.  
+- **Sign Up Screen**  
+  Easy registration for new users with validation to ensure account security. Users can quickly create an account and start managing their finances.  
 
-- **Data Visualization**  
-  Visualize your income and expenses using **Donut Charts** for better financial insights.  
+- **Home Dashboard**  
+  The main interface showing an overview of your finances, including income, expenses, and current balance. Includes visual **Donut Charts** for quick insights.  
 
 - **Transaction Management**  
-  Easily add, delete, and track your financial transactions.  
+  Add, edit, or delete transactions seamlessly. Keep track of your financial activities in one place.  
 
 - **Transaction History**  
-  Keep a record of all past transactions for long-term financial planning.  
+  View a detailed history of all past transactions for better financial planning and tracking.  
 
 ---
 
@@ -37,8 +37,8 @@ The **Personal Finance Management System** is a desktop application designed to 
 
 ## 🛠 Tools & Technologies
 - **Programming Language:** Java (Java Swing for GUI) – **JDK 1.8**  
-- **Database:** SQLite (lightweight, file-based database)  
-- **Charts & Visualization:** XChart (Donut Chart for financial data)  
+- **Database:** SQLite (lightweight, file-based) – **sqlite-jdbc-3.51.0.0**  
+- **Charts & Visualization:** XChart (Donut Chart for financial data) – **xchart-3.8.8**  
 
 ---
 
