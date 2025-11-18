@@ -2,25 +2,28 @@
 
 The **Personal Finance Management System** is a desktop application designed to help users efficiently manage their personal finances. This project was created as a college assignment, showcasing a practical implementation of Java Swing with SQLite database integration.
 
-## Features
+## ✨ Features
 
-- **Login Screen**  
-  A secure login interface that authenticates users before accessing the application. Provides a simple and clean UI for user authentication.
+- 🔐 **Login Screen**  
+  Secure login interface for user authentication with a clean and simple UI.
 
-- **Sign Up Screen**  
-  Easy registration for new users with validation to ensure account security. Users can quickly create an account and start managing their finances.
+- 📝 **Sign Up Screen**  
+  Easy registration for new users with proper validation to ensure account safety.
 
-- **Home Dashboard**  
-  The main interface showing an overview of your finances, including income, expenses, and current balance. Includes visual **Donut Charts** for quick insights.
+- 📊 **Home Dashboard**  
+  Overview of finances including income, expenses, and current balance.
 
-- **Transaction Management**  
-  Add, edit, or delete transactions seamlessly. Keep track of your financial activities in one place.
+- 🥧 **Pie Charts Visualization**  
+  Visual representation of spending and income categories using XChart.
 
-- **Transaction History**  
-  View a detailed history of all past transactions for better financial planning and tracking.
+- 💾 **Local Database Storage**  
+  Data stored using SQLite for fast, lightweight, file-based access.
 
-- **Report Generation**  
-  Generate detailed financial reports with a single click. Reports include income, expenses, balance summaries, and transaction breakdowns. Supports exporting to **PDF** using **iTextPDF 5.5.4**.
+- 🧾 **Print & Export Report**  
+  Generate PDF financial reports using iTextPDF.
+
+- 🎨 **Improved UI Layout**  
+  Updated interface for a more modern and user-friendly experience.
 
 # Preview
 
@@ -94,14 +97,17 @@ Open **NetBeans IDE** and ensure all `.java` files are in the correct packages:
    - Right-click `Login.java` in the `LoginSignup` package.  
    - Select **Run File** to start the application.
 
-
 ## 🛠 Tools & Technologies
 
 - **Programming Language:** Java (Java Swing for GUI) – **JDK 1.8**  
+- **IDE:** Apache NetBeans – **Apache-NetBeans-14-bin-windows-x64**  
 - **Database:** SQLite (lightweight, file-based) – **sqlite-jdbc-3.51.0.0**  
 - **Charts & Visualization:** XChart (Chart) – **xchart-3.8.8**  
-- **PDF Generator:** iTextPDF – **itextpdf-5.5.4**  
+- **PDF Generator:** iTextPDF – **itextpdf-5.5.4**
 
-## License
 
-This project is for educational purposes. You are free to use, modify, and improve it. However, it is not intended for commercial use. 
+## 📄 License
+
+This project is **open-source** and created for **educational purposes**.  
+You are free to use, modify, and improve the code as part of learning or personal development.  
+Feel free to explore, experiment, and build upon it 🤝
