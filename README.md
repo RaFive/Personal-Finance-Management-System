@@ -1,6 +1,6 @@
 # Personal Finance Management System (Sistem Manajemen Keuangan Pribadi)
 
-The **Personal Finance Management System** is a desktop application designed to help users efficiently manage their personal finances. This project was created as a college assignment, showcasing a practical implementation of Java Swing with SQLite database integration.
+The **Personal Finance Management System** is a desktop application designed to help users efficiently manage their personal finances. This project was created as a college assignment, showcasing a practical implementation of Java Swing with SQLite database integration. During the development process, I used **AI assistance** (I use AI) to help with coding, documentation, and exploring implementation ideas.
 
 ## ✨ Features
 
@@ -45,7 +45,7 @@ The **Personal Finance Management System** is a desktop application designed to 
 
 ### 1. Clone or Download the Project
 
-Clone the repository or download the ZIP file & open the project in **NetBeans IDE** (or your preferred Java IDE).
+Clone the repository or download the ZIP file & open the project in **NetBeans IDE**.
 
 ### 2. Update Database Path
 
@@ -57,45 +57,93 @@ You need to update this path to match your own project folder.
 
 **Files to update:**
 
+`DBA.java`
+
+```java
+String url = "jdbc:sqlite:C:\\Users\\RaFiveSRD\\Documents\\NetBeansProjects\\PersonalFinanceManagementSystem\\DataBase\\Account.db";
+```
+
 `Login.java`
 
 ```java
-String userDbPath = "C:\\Users\\YourUsername\\Path\\To\\PersonalFinanceManagementSystem\\DataBase\\Finance_"
-                    + username + ".db";
-DBK.createNewUserDatabase(userDbPath);
+String userDbPath = "C:\\Users\\RaFiveSRD\\Documents\\NetBeansProjects\\PersonalFinanceManagementSystem\\DataBase\\Finance_" + username + ".db";
 ```
 
 `SignUp.java`
 
 ```java
-String userDbPath = "C:\\Users\\YourUsername\\Path\\To\\PersonalFinanceManagementSystem\\DataBase\\" + username + ".db";
-DBK.createNewUserDatabase(userDbPath);
+String userDbPath = "C:\\Users\\RaFiveSRD\\Documents\\NetBeansProjects\\PersonalFinanceManagementSystem\\DataBase\\" + username + ".db";
 ```
 
-`UserManager.java` (previously `DBA.java`)
+`UserManager.java`
 
 ```java
-private static final String DB_FOLDER = "C:\\Users\\YourUsername\\Path\\To\\PersonalFinanceManagementSystem\\DataBase\\";
+private static final String DB_FOLDER = "C:\\Users\\RaFiveSRD\\Documents\\NetBeansProjects\\PersonalFinanceManagementSystem\\DataBase\\";
 ```
-Replace C:\\Users\\YourUsername\\Path\\To\\PersonalFinanceManagementSystem\\DataBase\\ with the folder where you will store your databases.
+Replace `C:\\Users\\RaFiveSRD\\Documents\\NetBeansProjects\\PersonalFinanceManagementSystem\\DataBase\\` with the folder where you will store your databases.
 
-### 3. Run the Application
+### 3. Install Required JAR Libraries
 
-Open **NetBeans IDE** and ensure all `.java` files are in the correct packages:
+This project uses several external libraries to enable database access, chart visualization, and PDF generation.
 
-**Packages and Files:**
+#### **Database: SQLite JDBC**
+- File: **sqlite-jdbc-3.51.0.0.jar**
+- Purpose: Connects Java to the SQLite database.
 
-- `LoginSignup` → `Login.java`, `SignUp.java`  
-- `personalfinancemanagementsystem` → `UserManager.java` (or `DBA.java`), `DBK.java`  
-- `Page` → `Home.java`  
+#### **Charts & Visualization**
+- File: **xchart-3.8.8.jar**
+- Purpose: Displays charts for financial data (income/expense).
 
-**Clean and Build the Project**  
-   - Right-click the project in the Projects panel.  
-   - Select **Clean and Build** to compile all files.
+#### **PDF Generator**
+- File: **itextpdf-5.5.4.jar**
+- Purpose: Generates PDF reports from financial data.
 
-**Run the Application**  
-   - Right-click `Login.java` in the `LoginSignup` package.  
-   - Select **Run File** to start the application.
+---
+
+### How to Add JAR Files in NetBeans
+
+1. Right-click the project → **Properties**
+2. Open the **Libraries** section
+3. Click **Add JAR/Folder**
+4. Select the following files:
+   - `sqlite-jdbc-3.51.0.0.jar`
+   - `xchart-3.8.8.jar`
+   - `itextpdf-5.5.4.jar`
+5. Click **OK**
+
+Your project is now ready to use all the required libraries.
+
+### 4. Run the Application
+
+Before running the application, ensure that all `.java` files are placed in the correct packages:
+
+#### **Package Structure:**
+
+- `LoginSignup`  
+  - `Login.java`  
+  - `SignUp.java`
+
+- `personalfinancemanagementsystem`  
+  - `UserManager.java`  
+  - `DBK.java`
+
+- `Page`  
+  - `Home.java`
+
+---
+
+### Run Steps
+
+#### **A. Clean and Build the Project**
+1. Right-click the project in the **Projects** panel.
+2. Select **Clean and Build** to compile all source files.
+
+#### **B. Run the Application**
+1. Navigate to the `LoginSignup` package.
+2. Right-click `Login.java`.
+3. Select **Run File** to start the application.
+
+The login window should now appear, and you can begin using the system.
 
 ## 🛠 Tools & Technologies
 
