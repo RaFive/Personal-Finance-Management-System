@@ -72,7 +72,7 @@ String userDbPath = "C:\\Users\\RaFiveSRD\\Documents\\NetBeansProjects\\Personal
 `SignUp.java`
 
 ```java
-String userDbPath = "C:\\Users\\RaFiveSRD\\Documents\\NetBeansProjects\\PersonalFinanceManagementSystem\\DataBase\\" + username + ".db";
+String userDbPath = "C:\\Users\\RaFiveSRD\\Documents\\NetBeansProjects\\PersonalFinanceManagementSystem\\DataBase\\" + "Finance_" + username + ".db";
 ```
 
 `UserManager.java`
@@ -80,6 +80,7 @@ String userDbPath = "C:\\Users\\RaFiveSRD\\Documents\\NetBeansProjects\\Personal
 ```java
 private static final String DB_FOLDER = "C:\\Users\\RaFiveSRD\\Documents\\NetBeansProjects\\PersonalFinanceManagementSystem\\DataBase\\";
 ```
+
 Replace `C:\\Users\\RaFiveSRD\\Documents\\NetBeansProjects\\PersonalFinanceManagementSystem\\DataBase\\` with the folder where you will store your databases.
 
 ### 3. Install Required JAR Libraries
