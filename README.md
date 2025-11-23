@@ -33,14 +33,12 @@ The **Personal Finance Management System** is a desktop application designed to 
 # Preview
 
 <div align="center">
-
-### <b>LOGIN</b>
+  
 <img width="798" height="598" alt="Screenshot (148)" src="https://github.com/user-attachments/assets/1228b80b-d3ae-4964-9d9a-4894f9e0baf6" />
 
-### <b>SIGN UP</b>
 <img width="797" height="598" alt="Screenshot (150)" src="https://github.com/user-attachments/assets/7a7d9360-a60d-4c24-bd2d-5bdf4caaecc0" />
+
 <img width="1077" height="726" alt="Screenshot (210)" src="https://github.com/user-attachments/assets/48a34d50-6bf3-4c5b-bd49-b94862f15c77" />
-### <b>HOME DASHBOARD</b>
 
 </div>
 
