@@ -262,10 +262,8 @@ Jendela login kini akan muncul, dan Anda dapat mulai menggunakan sistem.
 
 ## 📄 License
 
-This project is **open-source** and created for **educational purposes**.  
-You are free to use, modify, and improve the code as part of learning or personal development.  
-Feel free to explore, experiment, and build upon it 🤝  
+This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
 
-Proyek ini bersifat **open-source** dan dibuat untuk **keperluan edukasi**.  
-Anda bebas menggunakan, memodifikasi, dan mengembangkan kode ini sebagai bagian dari pembelajaran atau pengembangan pribadi.  
-Jangan ragu untuk mengeksplorasi, bereksperimen, dan membangunnya lebih lanjut 🤝
+---
+
+Proyek ini dilisensikan di bawah **MIT License** - lihat file [LICENSE](LICENSE) untuk detail selengkapnya.
